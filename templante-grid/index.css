@@ -1,0 +1,71 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.box1 {
+  height: auto;
+  display: grid;
+  grid-template-areas:
+    "a2 a1 a4"
+    "a2 a3 a4"
+    "a2 a5 a4";
+  grid-template-columns: 225px 1fr 225px;
+  grid-template-rows: 120px 800px 120px;
+}
+.box1 .a1 {
+  background: red;
+  grid-area: a1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box1 .a2 {
+  background: rgb(255, 255, 255);
+  grid-area: a2;
+  display: grid;
+  grid-template-areas:
+    "b1"
+    "b2"
+    "b3";
+  grid-template-rows: 230px 280px 1fr;
+  grid-template-columns: auto;
+}
+.box1 .a3 {
+  background: yellow;
+  grid-area: a3;
+}
+.box1 .a4 {
+  background: blue;
+  grid-area: a4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box1 .a5 {
+  background: violet;
+  grid-area: a5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box1 .a2 .b1 {
+  background: rgb(48, 48, 119);
+  grid-area: b1;
+}
+.box1 .a2 .b2 {
+  background: rgb(172, 112, 112);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-area: b2;
+}
+.box1 .a2 .b3 {
+  background: green;
+  grid-area: b3;
+}
+.box1 .a2 .b1 img {
+  width: 220px;
+  height: 220px;
+}
