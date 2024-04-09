@@ -24,19 +24,11 @@
         
         <section>
             <h3>Cadastro aluno</h3>
-            <form action="lista-aluno.php" method="get">
+            <form action="form_get.php" method="get">
             <label for="nome">Nome aluno</label>
             <input type="text" name="nome" id="nome" placeholder="digite o nome" required>
-            <label for="endereco">Endereço</label>
-            <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço" required>
             <label for="idade">idade</label>
             <input type="number" name="idade" id="idade" placeholder="Digite a idade" required>
-            <label for="data">data</label>
-            <input type="date" name="data" id="data" placeholder="Digite a data" required>
-            <label for="estado">Estado</label>
-            <input type="select" name="estado" id="estado" placeholder="Digite o estado" required>
-            <label for="cidade">Cidade</label>
-            <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade" required>
             <label for="submit"></label>
             <input type="submit" value="Enviar">
         </form>
