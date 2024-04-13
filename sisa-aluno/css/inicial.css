@@ -31,7 +31,8 @@ main {
 
 h1,
 p,
-a {
+a,
+label {
   font-family: "Manrope", sans-serif;
   background: -webkit-linear-gradient(#198cb5, #5338b5);
   background: linear-gradient(#198cb5, #5338b5);
@@ -53,22 +54,70 @@ a {
   transition: all 0.5s;
 }
 
-.px:hover{
+.px:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.px:active{
-  -webkit-transform: scale(0.9) ;
-  transform: scale(0.9) ;
+.px:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
-p{
+p {
   font-size: 25px;
 }
 h1 {
   font-size: 70px;
-  margin-top:8%;
+  margin-top: 8%;
 }
 
+#vs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 30px;
+}
+input {
+  text-align: initial;
+  padding: 12px;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #198cb5, #5338b5);
+  padding: 12px;
+  width: 50vh;
+  outline: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+#sub {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#sub:hover {
+  background: #198cb5;
+  color: white;
+  border: #198cb5 3px solid;
+}
+#suv {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  background: #fff;
+  height: 65vh;
+  width: 45%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+  margin-top: 10%;
+}
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200.. 800&display=swap");
