@@ -25,7 +25,7 @@
         <section>
         <section>
             <h3>Cadastro aluno</h3>
-            <form action="form-post.php" method="post">
+            <form action="form_get.php" method="get">
             <label for="nome">Nome aluno</label>
             <input type="text" name="nome" id="nome" placeholder="digite o nome" required>
             <label for="endereco">Endereço</label>

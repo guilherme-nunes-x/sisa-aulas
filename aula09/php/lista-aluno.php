@@ -44,7 +44,7 @@
                 echo"<td>$data</td>";
             
                 ?>
-                </tr>
+                </tr> 
             </table>
         </section>
     </main>
