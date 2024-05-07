@@ -20,7 +20,7 @@
     for ($i = 0; $i < 8; $i++) {
         echo "$i = " . $var[$i] . "<br>";
     }
-
+    echo "<br> Numero de elemento: " .count($var) ."<br>";
     echo "<h2><br>Pre-teste</h2>";
     $number= array(0,1,2,3,4,5,6,7,8,9,10);
     echo "<br><h3>for :</h3> <br>";
