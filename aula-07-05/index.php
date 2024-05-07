@@ -28,10 +28,11 @@
         echo "$i = " . $number[$i] . "<br>";
     }
     echo "<br> Numero de elemento: ".count($number) ."<br>";
-    //echo "Forseach :";
-    //foreach ($var as $dado) {
-    //    echo $dado."<br>";
-    //}
+    echo "Forseach :<br>";
+    $var1 = array("jonh" => 12, "eric" => 32, "mander" => 31, "erverssom" => 24, "jose" => 23, "marick" => 45, "edmund" => 56, "var1sen" =>27);
+    foreach ($var1 as $i => $valores) {
+    echo "Os valores são $valores e seus indices $i <br>";
+    }
     ?>
     </pre>
 </body>
