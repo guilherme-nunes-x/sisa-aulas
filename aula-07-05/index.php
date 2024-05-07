@@ -27,6 +27,7 @@
     for ($i = 0; $i <count($number); $i++) {
         echo "$i = " . $number[$i] . "<br>";
     }
+    echo "<br> Numero de elemento: ".count($number) ."<br>";
     //echo "Forseach :";
     //foreach ($var as $dado) {
     //    echo $dado."<br>";
