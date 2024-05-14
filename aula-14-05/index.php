@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -18,13 +18,13 @@
         <?php
         $var = array(1, 2, 3, 4, 5);
         echo "Impressao 1 por 1<br>";
-        echo $var[0] . "<br>";
-        echo $var[1] . "<br>";
-        echo $var[2] . "<br>";
-        echo $var[3] . "<br>";
-        echo $var[4] . "<br>";
+        echo  "<br>" . $var[0];
+        echo  "<br>" . $var[1];
+        echo  "<br>" . $var[2];
+        echo  "<br>" . $var[3];
+        echo  "<br>" . $var[4];
 
-        $aluno = array(1 =>"e1",2=>"e2",3=>"e3",4=>"e4",5=>"e5");
+        $aluno = array("e1" => 1,"e2" => 12,"e3" => 13,"e4" => 14,"e5" => 15);
         ?>
     </pre>
 
@@ -63,11 +63,21 @@
         }
         echo "<br>";
         foreach ($aluno as $dado2s => $vls) {
-        echo "<br>a chave é $dado2s e o valor é $vls";
+        echo "<br>a chave é $dado2s e sua idade é $vls";
         }
         ?>
     </pre>
 
+    <div class="sg">
+        <h1>Array:</h1>
+        <h2>Multidimensional</h2>
+    </div>
+
+    <pre>
+        <?php
+
+        ?>
+    </pre>
 </body>
 
 </html>
