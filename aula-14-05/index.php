@@ -68,14 +68,30 @@
         ?>
     </pre>
 
-    <div class="sg">
+    <div class="sg"> 
+        <h1>Array:</h1>
+        <h2>Exposição com print_r</h2>
+    </div>
+
+    <pre>
+        <?php
+        print_r($var);
+        print_r($aluno);
+        ?>
+    </pre>
+
+    <div class="sg"> 
         <h1>Array:</h1>
         <h2>Multidimensional</h2>
     </div>
 
     <pre>
         <?php
+    $Alunos = array ("jon" => array("endereco" => "Rua marela", "bairro" => "Pernambuco"),
+"eric" => array("endereco" => "Rua verde", "bairro" => "maranhão"),
+"mary" => array("endereco" => "Rua vermelho", "bairro" => "são sebastião"));
 
+print_r($Alunos);
         ?>
     </pre>
 </body>
