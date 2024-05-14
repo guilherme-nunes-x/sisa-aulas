@@ -40,12 +40,12 @@
    
     <div class="sg">
         <h1>Array:</h1>
-        <h2></h2>
+        <h2>impressao com foreach</h2>
     </div>
     <pre>
         <?php
-        for ($i = 0; $i < count($var); $i++) {
-            echo " <br> $i : $var[$i]";
+        foreach ($var as $dados) {
+            echo "<br>".$dados;
         }
         ?>
     </pre>
