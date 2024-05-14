@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sg{
+     color:rgb(251, 255, 0);
+     background-color: aqua;
+     padding: 3vh;
+     text-align: center;
+}
+pre{
+    background-color: rgb(128, 54, 54);
+    padding: 5vh;
+    font-size: 25px;
+    color:white;
+}
