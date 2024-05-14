@@ -23,6 +23,8 @@
         echo $var[2] . "<br>";
         echo $var[3] . "<br>";
         echo $var[4] . "<br>";
+
+        $aluno = array(1 =>"e1",2=>"e2",3=>"e3",4=>"e4",5=>"e5");
         ?>
     </pre>
 
@@ -37,7 +39,7 @@
         }
         ?>
     </pre>
-   
+
     <div class="sg">
         <h1>Array:</h1>
         <h2>impressao com foreach</h2>
@@ -45,7 +47,23 @@
     <pre>
         <?php
         foreach ($var as $dados) {
-            echo "<br>".$dados;
+            echo "<br>" . $dados;
+        }
+        ?>
+    </pre>
+
+    <div class="sg">
+        <h1>Array:</h1>
+        <h2>impressao com 2° foreach</h2>
+    </div>
+    <pre>
+        <?php
+        foreach ($aluno as $dado1s) {
+            echo "<br>" . $dado1s;
+        }
+        echo "<br>";
+        foreach ($aluno as $dado2s => $vls) {
+        echo "<br>a chave é $dado2s e o valor é $vls";
         }
         ?>
     </pre>
