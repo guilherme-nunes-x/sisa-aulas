@@ -92,6 +92,9 @@
 "mary" => array("endereco" => "Rua vermelho", "bairro" => "são sebastião"));
 
 print_r($Alunos);
+print_r($Alunos['eric']);
+print_r($Alunos['jon']);
+print_r($Alunos['mary']);
         ?>
     </pre>
 </body>
