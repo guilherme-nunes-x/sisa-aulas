@@ -44,6 +44,23 @@ $var1 = 20;
 $return = multi($var, $var1);
 echo "<br>"; 
 echo "a multiplicação foi igual ".$return;
+
+$var3 = 32;
+
+$return = multi3($var, $var1, $var3);
+echo "<br>"; 
+echo "a multiplicação por três foi igual ".$return;
+
+for($i = 0; $i<100; $i++){
+$var = $i;
+$var1 = $i*2;
+
+$return = som($var, $var1);
+echo "<br>"; 
+echo "a soma foi igual ".$return;
+
+}
+
 function som($var, $var1){
     $soma = $var + $var1;
     return $soma;
@@ -62,6 +79,11 @@ function redu($varl, $varl2){
 }
 function multi($varl, $varl2){
     $text_multi = $varl * $varl2;
+    return $text_multi;
+}
+
+function multi3($varl, $varl2, $varl3){
+    $text_multi = $varl * $varl2 * $varl3;
     return $text_multi;
 }
 ?>
