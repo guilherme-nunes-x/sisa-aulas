@@ -22,19 +22,25 @@ echo "<br>".$return;
 //Valores variaveis
 $return = som($var, $var1);
 echo "<br>"; 
+echo "a soma foi igual ".$return;
+
 $var = 50;
 $var1 = 25;
-echo "a soma foi igual ".$return;
+
 $return = div($var, $var1);
 echo "<br>";
+echo "a divisão foi igual ".$return;
+
 $var = 46;
 $var1 = 23;
-echo "a divisão foi igual ".$return;
+
 $return = redu($var, $var1);
 echo "<br>"; 
+echo "a redução foi igual ".$return;
+
 $var = 5;
 $var1 = 20;
-echo "a redução foi igual ".$return;
+
 $return = multi($var, $var1);
 echo "<br>"; 
 echo "a multiplicação foi igual ".$return;
