@@ -60,7 +60,11 @@ echo "a divisão por quatro foi igual ".$return;
 // }
 $return = sem2(5);
 echo "<br>"; 
-echo "a divisão por quatro foi igual ".$return;
+echo "a equação foi igual ".$return;
+
+$return = eleve(som(5,5));
+echo "<br>"; 
+echo "a equação foi igual ".$return;
 
 function som($var, $var1){
     $soma = $var + $var1;
@@ -76,7 +80,11 @@ function soma2($var, $var1, $var2, $var3){
     return $text_div;
 }
 function sem2($var){
-    $text_div = ($var * $var) + $var /$var;
+    $text_div = ($var * $var) + $var /$var - $var;
+    return $text_div;
+}
+function eleve($var){
+    $text_div = ($var * $var);
     return $text_div;
 }
 function som_text($varl = 2, $varl2 = 4){
