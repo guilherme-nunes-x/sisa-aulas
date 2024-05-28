@@ -62,15 +62,29 @@ $return = sem2(5);
 echo "<br>"; 
 echo "a equação foi igual ".$return;
 
-$return = eleve(som(5,5));
+$return = eleve(som(25,25));
 echo "<br>"; 
 echo "a equação foi igual ".$return;
+
+$return = som(eleve(5), 5);
+echo "<br>"; 
+echo "a equação foi igual ".$return;
+
+// $return = super(1000);
+// echo "<br>"; 
+// echo "a equação foi igual Array".$return;
 
 function som($var, $var1){
     $soma = $var + $var1;
     return $soma;
 }
 
+// function super($var){
+//     for($i = 0;$i<$var; $i++){
+//         $init[$i] = $i + 1;
+//     }
+//     return $init[];
+// }
 function div4($var, $var1, $var2, $var3){
     $text_div = $var / $var1 / $var2 / $var3;
     return $text_div;
