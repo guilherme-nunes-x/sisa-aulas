@@ -135,6 +135,11 @@
   </tr>
 
   <?php } ?>
+
+  <?php 
+$a = count($var['alunos']);
+print($a);
+?>
 </table>
 </pre>
 
