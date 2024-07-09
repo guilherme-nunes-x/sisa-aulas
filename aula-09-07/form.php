@@ -29,7 +29,7 @@
         <p>fornecedo <input type="text" name="fornecedor"></p>
         <p>dtfabricacao <input type="date" name="dtfab"></p>
                 
-        <p>Receita necessaria ? </p>
+       <p>Receita necessaria ? </p>
             <select name="receita" id="receita" aria-placeholder="receita" required>
                 <option value="sim" selected>sim</option>
                 <option value="não" selected>não</option>

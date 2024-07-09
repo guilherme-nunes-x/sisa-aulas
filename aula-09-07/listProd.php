@@ -23,17 +23,35 @@ th, td {
 
 <body>
     <?php
-    echo "nProd: " . $_POST['produto'] . "<br>";
-    echo "Cbarras: " . $_POST['barras'] . "<br>";
-    echo "Marcas: " . $_POST['marcas'] . "<br>";
-    echo "laboratorio: " . $_POST['laboratorio'] . "<br>";
-    echo "precoV: " . $_POST['precov'] . "<br>";
-    echo "PrecoC: " . $_POST['precoc'] . "<br>";
-    echo "Quant: " . $_POST['quant'] . "<br>";
-    echo "validade: " . $_POST['validade'] . "<br>";
-    echo "fornecedo: " . $_POST['fornecedor'] . "<br>";
-    echo "dtfabricacao: " . $_POST['dtfab'] . "<br>";
-    echo "Receita: " . $_POST['dtfab'] . "<br>";
+    echo "<table>";
+    echo "<tr>";
+    echo "<th>nProd</th>";
+    echo "<th>Cbarras</th>";
+    echo "<th>Marcas</th>";
+    echo "<th>laboratorio</th>";
+    echo "<th>precoV</th>";
+    echo "<th>PrecoC</th>";
+    echo "<th>Quant</th>";
+    echo "<th>validade</th>";
+    echo "<th>fornecedo</th>";
+    echo "<th>dtfabricacao</th>";
+    echo "<th>Receita</th>";
+    echo "</tr>";
+    echo "<tr>";
+    echo "<td>".$_POST['produto']."</td>";
+    echo "<td>".$_POST['barras']."</td>";
+    echo "<td>".$_POST['marcas']."</td>";
+    echo "<td>".$_POST['laboratorio']."</td>";
+    echo "<td>".$_POST['precov']."</td>";
+    echo "<td>".$_POST['precoc']."</td>";
+    echo "<td>".$_POST['quant']."</td>";
+    echo "<td>".$_POST['validade']."</td>";
+    echo "<td>".$_POST['fornecedor']."</td>";
+    echo "<td>".$_POST['dtfab']."</td>";
+    echo "<td>".$_POST['receita']."</td>";
+    echo "</tr>";
+    echo "</table>"
+
     ?>
 </body>
 
